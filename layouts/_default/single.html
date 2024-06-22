@@ -1,6 +1,9 @@
 {{ define "main" }}
 <article>
     <header>
+        <p>
+            {{ partial "breadcrumbs.html" . }}
+        </p>
         <h1>{{ markdownify .LinkTitle }}</h1>
         <p>
             {{ with .PublishDate -}}
