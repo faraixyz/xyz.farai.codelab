@@ -1,6 +1,9 @@
 title: Farai's Codelab
 baseURL: https://codelab.farai.xyz
 languageCode: en-zw
+taxonomies:
+  tag: tags
+  tech: tech
 
 frontmatter:
   date:
