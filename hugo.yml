@@ -1,0 +1,15 @@
+title: Farai's Codelab
+baseURL: https://codelab.farai.xyz
+languageCode: en-zw
+
+frontmatter:
+  date:
+    - date
+    - publishdate
+  publishdate:
+    - publishdate
+    - date
+  lastmod:
+    - lastmod
+    - publishdate
+    - date
