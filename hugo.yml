@@ -13,3 +13,27 @@ frontmatter:
     - lastmod
     - publishdate
     - date
+
+markup:
+  goldmark:
+    extensions:
+      extras:
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneimageWithinParagraph: true
+    renderer:
+      unsafe: true
+    renderHooks:
+      image:
+        enableDefault: true
+      link:
+        enableDefault: true
