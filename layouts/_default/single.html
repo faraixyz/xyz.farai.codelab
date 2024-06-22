@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article>
+    <header>
+        <h1>{{ markdownify .LinkTitle }}</h1>
+        <p>
+            {{ with .PublishDate -}}
+            <span>
+                <b>Published: </b>
+                <time datetime="{{ .Format `2006-02-01T15:04:05-07:00` }}">
+                    {{ .Format `02 Jan 2006 at 15:04 MST` }}
+                </time>
+            </span>
+            {{- end }}
+            {{ if ne .Lastmod .PublishDate -}}
+            {{ with .Lastmod -}}
+            <span>
+                <b>Updated: </b>
+                <time datetime="{{ .Format `2006-02-01T15:04:05-07:00` }}">
+                    {{ .Format `02 Jan 2006 at 15:04 MST` }}
+                </time>
+            </span>
+            {{- end }}
+            {{- end }}
+        </p>
+    </header>
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
