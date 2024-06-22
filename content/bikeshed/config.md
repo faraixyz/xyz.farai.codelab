@@ -66,3 +66,18 @@ There's a lot here but in short
 * `parser` enables [block attributes](https://gohugo.io/content-management/markdown-attributes/#block-elements) which lets you specify attributes for markdown in curly brackets. The `wrapStandAloneimageWithinParagraph` prevents Hugo from wrapping images without surrounding elements within a block from being wrapped in a `<p>` tag so you can use block attributes with them.
 * `renderer` with `unsafe: true` prevents raw HTML from being escaped in markdown files.
 * `renderHooks` makes use of Hugo's default [render hooks](https://gohugo.io/render-hooks/introduction/) which are good enough to start with.
+
+## Modules
+
+```yml
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: images
+      target: assets/images
+    - source: files
+      target: assets/files
+```
+
+This maps the `/images/` and `/files/` folders to the assets folder which allows them to be accessed as a [resource](https://gohugo.io/methods/page/resources/).

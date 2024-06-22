@@ -40,3 +40,12 @@ markup:
         enableDefault: true
       link:
         enableDefault: true
+
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: images
+      target: assets/images
+    - source: files
+      target: assets/files
