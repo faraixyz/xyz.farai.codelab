@@ -1,5 +1,6 @@
 ---
 title: Farai's Codelab Is Back!
+description: I've decided to start blogging about programming again, this time as a digital garden
 tags: [meta]
 draft: false
 ---
@@ -48,6 +49,9 @@ I found a bunch of links on digital gardens that you might find helpful:
 
 * [Digital gardens need RSS](https://cagrimmett.com/2023/10/17/digital-gardens-need-rss/) by Chuck Grimmett—what I consider to be a firehose he considers to be <q>a much higher rate of discovering new things and interesting ideas</q>
 * [RSS Feeds in Digital Gardens](https://notes.aquiles.me/rss_feeds_in_digital_gardens/) by Aquiles Carattino who wonders how to implement RSS on a digital garden.
-* [Digital garden](https://anthonyamar.fr/Digital+garden/Digital+garden) by Anthony Amar who outlines what a digital garden is.  
+* [Digital garden](https://anthonyamar.fr/Digital+garden/Digital+garden) by Anthony Amar who outlines what a digital garden is.
+* [🌱 My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden/) by Joel Hooks also looks into what a digital garden is.
+* [How I built myself a Digital Garden](https://timrodenbroeker.de/digital-garden/) by Tim Rodenbröker shares how he made his digital garden, also with Hugo!
+* [A Brief History & Ethos of the Digital Garden](https://maggieappleton.com/garden-history) by Maggie Appleton provides a history of digital gardens and provides some guiding principles.
 
 [^cunningham]: <dfn>Cunningham's law</dfn> states that <q>The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer.</q> Plays out many times on the internet although Cunningham states that [he didn't say that one should post wrong answers to the internet](https://www.youtube.com/watch?v=fclyQt6R5Dc), which is like a [Bourdain statement](https://www.atvbt.com/bourdain-statements/). The one thing that worries me (as highlighted in the bourdain statement link that was so hard to find) about this is that correcting the wrong answer (which is sometimes bullshit) requires more effort to refute than to make as per [<dfn>Brandolini's law</dfn>](https://web.archive.org/web/20140718225358/https://twitter.com/ziobrando/status/289635060758507521), meaning that smart people who could be doing something more useful end up spending time debunking wrong things instead.
