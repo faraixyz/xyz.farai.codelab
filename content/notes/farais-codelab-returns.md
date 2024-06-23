@@ -1,5 +1,6 @@
 ---
 title: Farai's Codelab Is Back!
+publishdate: 2024-06-23T17:08:22+02:00
 description: I've decided to start blogging about programming again, this time as a digital garden
 tags: [meta]
 draft: false
