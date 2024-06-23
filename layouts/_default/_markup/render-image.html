@@ -1,0 +1,32 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- $attrs := dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $src = .RelPermalink -}}
+    {{- with $u.RawQuery -}}
+      {{- $src = printf "%s?%s" $src . -}}
+    {{- end -}}
+    {{- with $u.Fragment -}}
+      {{- $src = printf "%s#%s" $src . -}}
+    {{- end -}}
+    {{- $attrs = merge $attrs (dict "width" (string .Width) "height" (string .Height)) -}}
+  {{- else -}}
+    {{- with $.PageInner.File -}}
+        {{- warnf "Image %s in file %s not found" $.Destination .Filename -}}
+    {{- else -}}
+        {{- warnf "Image %s not found" $.Destination -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $k, $v := .Attributes -}}
+    {{- $attrs = merge $attrs (dict $k $v) -}}
+{{- end -}}
+<img
+  {{- range $k, $v := $attrs -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}

@@ -1,7 +1,7 @@
 ---
 title: Render Link
 publishdate: 2024-06-23T16:27:21+02:00
-description: Render hook for markdown hooks
+description: Render hook for markdown links
 tech: [Hugo]
 draft: false
 ---
