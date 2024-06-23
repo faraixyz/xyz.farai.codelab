@@ -9,6 +9,11 @@
         <p>{{ markdownify (or .Params.fancyDescription .Description) }}</p>
         {{- end }}
     </div>
+    {{ with .Content -}}
+    <div>
+        {{ . }}
+    </div>
+    {{- end }}
     <div>
         {{- $pages := cond (eq .Kind "taxonomy") .Pages .RegularPagesRecursive -}}
         <h2>{{ cond (eq .Kind "taxonomy") .Title "Pages" }} ({{ len (cond (eq .Section "archives") site.RegularPages $pages)}})</h2>
