@@ -53,4 +53,5 @@ module:
       target: assets/files
 
 params:
+  description: Where Farai shares his coding experiments
   footerText: Made with 🤷🏾‍♂️ by Farai. Built with [Hugo](https://gohugo.io) and [other fine tools](/content/bikeshed/colophon.md).

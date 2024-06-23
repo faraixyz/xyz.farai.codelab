@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ cond .IsHome "" (print .Title " | ") }}{{ site.Title }}</title>
+    {{ if .IsHome -}}
+    <meta name="description" content="{{ site.Params.Description }}">
+    {{ else -}}
+    {{ with .Description -}}
+    <meta name="description" content="{{ . }}">
+    {{- end }}
+    {{- end }}
+    <link rel="canonical" href="{{ or .Params.canonical .Permalink }}">
+    {{ hugo.Generator }}
     <style>
         html {
             font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+            line-height: 1.5;
+        }
+
+        body {
+            margin: 0 auto;
+            max-width: 80ch;
+        }
+
+        img, svg, video, canvas, audio, iframe, embed, object {
+            display: block;
+            vertical-align: middle;
+            max-width: 100%;
+        }
+
+        img, svg, video, canvas {
+            height: auto;
         }
     </style>
 </head>

@@ -1,5 +1,6 @@
 ---
 title: Render Image
+publishdate: 2024-06-23T16:52:10+02:00
 description: Render hook for markdown images
 tech: [Hugo]
 draft: false
