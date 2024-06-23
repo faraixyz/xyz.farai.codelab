@@ -15,6 +15,7 @@ frontmatter:
   date:
     - date
     - publishdate
+    - lastmod
   publishdate:
     - publishdate
     - date

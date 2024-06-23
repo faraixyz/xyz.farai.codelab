@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div>
     <div>
+        <p>
+            {{ partial "breadcrumbs.html" . }}
+        </p>
         <h1>{{ markdownify .LinkTitle }}</h1>
         {{ if or .Description .Params.fancyDescription -}}
         <p>{{ markdownify (or .Params.fancyDescription .Description) }}</p>
