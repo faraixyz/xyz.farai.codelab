@@ -52,6 +52,21 @@ module:
     - source: files
       target: assets/files
 
+mediaTypes:
+  application/rss+xml:
+    suffixes:
+      - rss.xml
+      - rss
+
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    basename: feed
+
+outputs:
+  home: [HTML, RSS]
+  section: [HTML]
+
 params:
   description: Where Farai shares his coding experiments
-  footerText: Made with 🤷🏾‍♂️ by Farai. Built with [Hugo](https://gohugo.io) and [other fine tools](/content/bikeshed/colophon.md).
+  footerText: Made with 🤷🏾‍♂️ by Farai. Built with [Hugo](https://gohugo.io) and [other fine tools](/content/bikeshed/colophon.md). [Read via RSS](/feed.rss.xml).

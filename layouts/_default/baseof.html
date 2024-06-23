@@ -34,6 +34,9 @@
             height: auto;
         }
     </style>
+    {{ with site.Home.OutputFormats.Get "RSS" -}}
+    <link rel="alternate" href="{{ .RelPermalink }}" title="{{ site.Title }}'s RSS Feed">
+    {{- end }}
 </head>
 <body>
     <main id="main" tabindex="-1">
