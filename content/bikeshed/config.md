@@ -28,7 +28,7 @@ frontmatter:
 This differs from the default configuration because of my needs:
 
 * `publishdate` is the date when the post is published. If `date` is also there then it serves as the date when a post has been republished.
-* `date` is the date when a post has been originally published. Defaults to `publishdate`
+* `date` is the date when a post has been originally published. Defaults to `publishdate`. It also has `lastmod` so I can list updated posts on the [archive page](/content/archives/_index.md).
 * `lastmod` is when a post was last updated. Falls back to `publishdate` then `date`.
 
 My hope in doing this is to allow a post to have a publish date, republished date and updated date. I'm still trying to figure out how to render this on a page however.
