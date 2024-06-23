@@ -1,0 +1,16 @@
+{{ $grouper := site.RegularPages.GroupByDate "2006-01" }}
+<ul>
+{{ range $grouper -}}
+    {{ $date := print .Key "-01" }}
+    <li><a href="#{{ .Key }}">{{ dateFormat "January 2006" $date }}</a></li>
+{{- end }}
+</ul>
+{{ range $grouper -}}
+{{ $date := print .Key "-01" }}
+<h3 id="{{ .Key }}">{{ dateFormat "January 2006" $date }}</h3>
+<ul>
+{{ range .Pages  -}}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
+{{- end }}

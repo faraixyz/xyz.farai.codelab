@@ -9,11 +9,15 @@
     <div>
         {{- $pages := cond (eq .Kind "taxonomy") .Pages .RegularPagesRecursive -}}
         <h2>{{ cond (eq .Kind "taxonomy") .Title "Pages" }} ({{ len (cond (eq .Section "archives") site.RegularPages $pages)}})</h2>
+        {{ if eq .Section "archives" -}}
+            {{ partial "archives-page.html" . }}
+        {{- else }}
         <ul>
             {{ range $pages -}}
                 {{ .Render "li" }}
             {{- end }}
         </ul>
+        {{- end }}
     </div>
 </div>
 {{ end }}
