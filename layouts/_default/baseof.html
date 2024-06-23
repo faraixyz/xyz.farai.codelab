@@ -17,7 +17,7 @@
     {{ end }}
     </main>
     <footer>
-        {{ with .Params.footerText -}}
+        {{ with site.Params.footerText -}}
         <p>
             {{ markdownify . }}
         </p>
