@@ -16,5 +16,17 @@
 
     {{ end }}
     </main>
+    <footer>
+        {{ with .Params.footerText -}}
+        <p>
+            {{ markdownify . }}
+        </p>
+        {{- end }}
+        <p>
+            <small>
+            ©{{ now.Year }} {{ site.Title }}. {{ site.Copyright }}
+            </small>
+        </p>
+    </footer>
 </body>
 </html>

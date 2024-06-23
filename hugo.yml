@@ -1,5 +1,6 @@
 title: Farai's Codelab
 baseURL: https://codelab.farai.xyz
+copyright: All rights reserved. Please don't steal.
 languageCode: en-zw
 taxonomies:
   tag: tags
@@ -49,3 +50,6 @@ module:
       target: assets/images
     - source: files
       target: assets/files
+
+params:
+  footerText: Made with 🤷🏾‍♂️ by Farai. Built with [Hugo](https://gohugo.io) and [other fine tools](/content/bikeshed/colophon.md).
