@@ -14,3 +14,8 @@ These posts are yet to be put online so I couldn't link to them yet though I sho
 * link my posts on the many drafts I have
 * link to job search fail
 * link to web page on worrystones which highlights my site recreation anxiety
+
+## On [Slight Loss](/content/notes/slight-loss.md)
+
+* Show an example of the difference lossy compression makes (present but irrelevant)
+* Walk through making an XKCD or digital illustration smaller.
