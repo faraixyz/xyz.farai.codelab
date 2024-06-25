@@ -1,4 +1,7 @@
 <li>
+    {{ if .LinkTitle -}}
     <a href="{{ .RelPermalink }}">{{ markdownify .LinkTitle }}</a>
-    <time datetime="{{ (or .PublishDate .Lastmod).Format `2006-02-01T15:04:05-07:00` }}">{{  (or .PublishDate .Lastmod).Format `02 Jan 2006 at 15:04 MST`  }}</time>
+    {{ else -}}
+    <a href="{{ .RelPermalink }}">Me on <time datetime="{{ (or .PublishDate .Lastmod).Format `2006-02-01T15:04:05-07:00` }}">{{  (or .PublishDate .Lastmod).Format `02 Jan 2006 at 15:04 MST`  }}</time></a>
+    {{- end }}
 </li>

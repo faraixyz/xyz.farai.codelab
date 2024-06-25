@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ cond .IsHome "" (print .Title " | ") }}{{ site.Title }}</title>
+    <title>
+    {{ if .Title -}}
+    {{ cond .IsHome "" (print .Title " | ") }}
+    {{ else }}
+    {{ print "Farai on " (.PublishDate.Format `02 Jan 2006 at 15:04 MST`) " | " }}
+    {{- end }}{{ site.Title }}
+    </title>
     {{ if .IsHome -}}
     <meta name="description" content="{{ site.Params.Description }}">
     {{ else -}}
