@@ -3,6 +3,7 @@ baseURL: https://codelab.farai.xyz
 copyright: All rights reserved. Please don't steal.
 languageCode: en-zw
 taxonomies:
+  project: projects
   tag: tags
   tech: tech
   series: series
