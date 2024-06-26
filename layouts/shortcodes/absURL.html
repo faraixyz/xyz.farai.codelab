@@ -1,0 +1,6 @@
+{{- $url := .Get 0 -}}
+{{- with or (.Page.Resources.GetMatch $url) (resources.Get $url) -}}
+    {{- .Permalink -}}
+{{- else -}}
+    {{- absURL $url -}}
+{{- end -}}

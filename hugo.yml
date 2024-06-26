@@ -53,6 +53,8 @@ module:
       target: assets/images
     - source: files
       target: assets/files
+    - source: videos
+      target: assets/videos
 
 mediaTypes:
   application/rss+xml:
