@@ -10,7 +10,7 @@ draft: false
 These posts are yet to be put online so I couldn't link to them yet though I should:
 
 * Link to all the previous versions of this personal website
-* link to post on 5 year coding review
+* ~~link to post on 5 year coding review~~
 * link my posts on the many drafts I have
 * link to job search fail
 * link to web page on worrystones which highlights my site recreation anxiety

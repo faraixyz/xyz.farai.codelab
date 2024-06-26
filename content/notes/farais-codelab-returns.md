@@ -8,7 +8,7 @@ draft: false
 
 I've been blogging for nearly 9 years now under various domains and themes. It started with [The Algorithmic Cookbook](https://web.archive.org/web/20170909005305/https://agckb.wordpress.com/) where the idea was to build an "online presence" by sharing what I'd learned, helping me get jobs and internships—that didn't happen. Instead what happened was a lot of half-assing and underestimating just how hard it is to stand out. Well, that ends today.
 
-One of the many sites was named Farai's Codelab which signalled a willingness to experiment with programming. This came about when I had been programming for 5 years where I had hoped the next five years would be an oppurtunity to grow as a programmer—I did not capitalize on it. Since that time I've very little, despite many years of unemployment and the free time that came with it. The most I accomplished was:
+One of the many sites was named Farai's Codelab which signalled a willingness to experiment with programming. This came about when [I had been programming for 5 years](/content/notes/5-years-coding.md) where I had hoped the next five years would be an oppurtunity to grow as a programmer—I did not capitalize on it. Since that time I've very little, despite many years of unemployment and the free time that came with it. The most I accomplished was:
 
 * make many half-assed projects,
 * rebuild my personal website over and over again,
