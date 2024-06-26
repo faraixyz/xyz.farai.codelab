@@ -5,6 +5,7 @@ languageCode: en-zw
 taxonomies:
   tag: tags
   tech: tech
+  series: series
 
 frontmatter:
   date:
