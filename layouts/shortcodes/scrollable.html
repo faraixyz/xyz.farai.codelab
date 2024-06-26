@@ -1,0 +1,3 @@
+<div style="overflow-x: auto;"{{ with .Get "ariaLabel" }} aria-label="{{ . | safeHTML }}"{{ end }}>
+{{ .Inner }}
+</div>
