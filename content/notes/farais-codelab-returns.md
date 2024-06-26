@@ -1,18 +1,22 @@
 ---
 title: Farai's Codelab Is Back!
 publishdate: 2024-06-23T17:08:22+02:00
+lastmod: 2024-06-26T06:20:11+02:00
 description: I've decided to start blogging about programming again, this time as a digital garden
 tags: [meta]
+notes:
+    - date: 2024-06-26T06:20:11+02:00
+      note: There were a lot of missing links which i've added not. They weren't there to begin with because I was moving content in.
 draft: false
 ---
 
-I've been blogging for nearly 9 years now under various domains and themes. It started with [The Algorithmic Cookbook](https://web.archive.org/web/20170909005305/https://agckb.wordpress.com/) where the idea was to build an "online presence" by sharing what I'd learned, helping me get jobs and internships—that didn't happen. Instead what happened was a lot of half-assing and [underestimating just how hard it is](/content/notes/job-search-fail.md) to stand out. Well, that ends today.
+I've been blogging for nearly 9 years now [under various domains](https://im.farai.xyz/blog/old-sites-archives/) and themes. It started with [The Algorithmic Cookbook](https://web.archive.org/web/20170909005305/https://agckb.wordpress.com/) where the idea was to build an "online presence" by sharing what I'd learned, helping me get jobs and internships—that didn't happen. Instead what happened was a lot of half-assing and [underestimating just how hard it is](/content/notes/job-search-fail.md) to stand out. Well, that ends today.
 
 One of the many sites was named Farai's Codelab which signalled a willingness to experiment with programming. This came about when [I had been programming for 5 years](/content/notes/5-years-coding.md) where I had hoped the next five years would be an oppurtunity to grow as a programmer—I did not capitalize on it. Since that time I've very little, despite many years of unemployment and the free time that came with it. The most I accomplished was:
 
 * make many half-assed projects,
 * rebuild my personal website over and over again [as a coping mechanism](/content/notes/worry-stone.md),
-* write hundreds of drafts and publish a few dozen of them and,
+* [write hundreds of drafts](https://im.farai.xyz/blog/2024-draft-destruction/) and publish a few dozen of them and,
 * [contribute 2 posts to CSS Tricks](https://css-tricks.com/author/faraigandiyafarai/).
 
 I only started working proper in 2022 and despite having a wide range of control, I hadn't thought to capitalize on it until now as the only way to get experience that recruiters will appreciate. I'd just gone through yet another phase of rebuilding my personal website and I thought that the best way to do this would be to bring back Farai's Codelab. Doing this will allow me to focus more on programming instead of taking the many tangents I do with personal blogging.
